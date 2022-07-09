@@ -1,0 +1,320 @@
+/* New code for my website */
+* {
+    margin: 0px;
+
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+@font-face {
+    font-family: Oswald-Regular;
+    src: url(fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Corbel;
+    src: url(fonts/corbell.ttf);
+}
+
+@font-face {
+    font-family: framd;
+    src: url(fonts/framd.ttf);
+}
+
+@font-face {
+    font-family: greatvibes;
+    src: url(fonts/GreatVibes-Regular.ttf);
+}
+
+.head-name {
+    width: 100vw;
+    height: 4vw;
+    background-color: black;
+    text-align: justify;
+}
+
+.quote-text {
+    margin: 1vh 1vw;
+    padding: 0vw 1vw 1vw 0vw ;
+    color: white;
+    font-family: 'greatvibes';
+    font-size: 1.9vw;
+    float: right;    
+}
+
+.name-ayush {
+    margin: .5vw 0.5vw;
+    color: white;
+    font-family: 'framd';
+    font-size: 2.4vw;
+    padding: auto;
+    float: left;
+}
+
+
+.container-top {
+    width: 70vw;
+    height: 65vw;
+    margin-top: 4.0625vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: left;
+    box-shadow: 0px 0px 15px rgb(199, 199, 199);
+    border-radius: 25px;
+
+}
+
+.text-top {
+    padding: 3.25vw 0vw 0vw 0vw;
+    font-family: 'Oswald-Regular';
+    font-size: 7.5vw;
+    text-align: center;
+    line-height: 8.125vw;
+}
+
+
+.paragraph-top {
+    opacity: 1;
+    padding: 3vw;
+    color: rgb(125, 125, 125);
+    font-family: 'Corbel';
+    font-size: 1.6vw;
+    text-align: left;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-1 {
+    margin-top: 3vw;
+    margin-left: 18.5vw;
+    width: 30vw;
+    height: 35vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgb(199, 199, 199);
+    text-align: center;
+
+    
+}
+
+.camel-gif {
+    padding-top: 2.2vw;
+    width: 22vw;
+    height: auto;
+}
+.icon-1:hover {
+    background-color: black;
+}
+
+.camel-insights {
+    margin-top: 4.4vw;
+    font-family: 'framd';
+    font-size: 3.5vw;
+}
+
+
+.icon-1:hover .camel-insights {
+    color: rgb(255, 255, 255);
+}
+
+.icon-2 {
+    margin-top: 3vw;
+    margin-left: 3vw;
+    width: 30vw;
+    height: 35vw;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgb(199, 199, 199);
+    text-align: center;
+}
+
+.drink-gif {
+    padding-top: 1.5vw;
+    width: 25vw;
+    height: auto;
+}
+
+.icon-2:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.drink-insights {
+    margin-top: 2vw;
+    font-family: 'framd';
+    font-size: 3.5vw;
+    color: white;
+}
+
+.icon-2:hover .drink-insights{
+    color: rgb(0, 0, 0);
+}
+
+.merch-section {
+    width: 62.4vw;
+    height: 7.4vw;
+    margin-top: 3vw;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgb(199, 199, 199);
+    border-radius: 25px;
+    
+}
+
+.merch_head{
+    
+    text-align: center;
+    font-family: 'Bebas';
+    font-size: 5vw;
+    padding: 1vw 2vw;
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(83, 0, 0));;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.merch {
+    width: 62.4vw;
+    height: 36.5vw;
+    margin-top: 3vw;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgb(199, 199, 199);
+    border-radius: 25px;
+}
+
+.merch-1 {
+    float: left;
+    
+    padding: 2vw;
+    width: 25vw;
+    height: auto;
+    border-radius: 3.5vw;
+}
+
+.merch-2 {
+    float: right;
+   
+    padding: 2vw;
+    width: 24.8vw;
+    height: auto;
+    border-radius: 3.5vw;
+}
+
+.contact-box-msg {
+    width: 70vw;
+    height: 38vw;
+    margin-top: 3vw;
+    margin-left: 14.5vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: left;
+    box-shadow: 0px 0px 15px rgb(199, 199, 199);
+    border-radius: 25px;
+}
+
+.contact-me-text {
+    padding: 1vw;
+    font-family: 'Oswald-Regular';
+    font-size: 4vw;
+    text-align: center;
+}
+.handles {  
+    margin: auto;
+    display: inline-flexbox;
+    padding: .5vw;
+    width: 30vw;
+    height: 7.5vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5vw;
+    box-shadow: 0px 0px 15px rgb(199, 199, 199);
+    cursor: pointer;
+
+}
+
+.handles-2 {
+    
+    margin: auto;
+    margin-top: 2vw;
+    padding: .5vw;
+    width: 30vw;
+    height: 7.5vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5vw;
+    box-shadow: 0px 0px 15px rgb(199, 199, 199);
+}
+
+.contact-me-para {
+    opacity: 1;
+    padding: 0.5vw 2vw 2vw 2vw;
+    color: rgb(125, 125, 125);
+    font-family: 'Corbel';
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+.insta-text {
+    margin-top: 1vw;
+    margin-right: 3.6vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+}
+
+
+.insta {
+    width: 3.5vw;
+    height: auto;
+    padding: 1vw;
+    margin-top: .6vw;
+    float: left;
+    
+}
+
+.mail {
+    width: 3.2vw;
+    height: auto;
+    padding: 1vw 1.4vw;
+    margin-top: 1vw;
+    float: left;
+}
+
+.mail-text {
+    margin-top: 1vw;
+    margin-right: 3.6vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+}
+
+.insta-link {
+    text-decoration: none;
+    color: black;
+}
+
+.mail-link {
+    text-decoration: none;
+    color: black;
+}
+
+.end {
+    margin-top: 10vw;
+    width: 100vw;
+    height: 8vw;
+    background-color: rgb(8, 0, 49);
+}
+
+.end-text {
+    opacity: .2;
+    padding: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
